@@ -27,7 +27,7 @@ void setup() {
 
 
 float kp = 1;
-float ki = 0;
+float ki = 2;
 float kd = 0.1;
 float error = 0;
 float last_error = 0;
