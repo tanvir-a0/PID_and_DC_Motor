@@ -2,6 +2,8 @@
 
 In this project, I implement a PID (Proportional-Integral-Derivative) controller to control the position of the shaft in a Brushed DC motor using a rotary encoder. The goal is to give input for the desired position of the shaft, and then the motor shaft will rotate until it reaches that position.
 
+Video of the project: https://youtu.be/woZFJwybc6Q
+
 It's important to note that I am not using an Encoder Motor; instead, I am utilizing a rotary encoder for this task. I am using a 300RPM (12V) DC motor, and if the speed exceeds 170 (speed in a scale of 0 to 255), this inexpensive encoder starts to exhibit issues. Therefore, I am limiting the maximum speed to 150 (speed in a scale of 0 to 255).
 
 ## Components Used:
